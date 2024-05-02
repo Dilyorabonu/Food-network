@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('public/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('public/fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('public/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('public/fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('public/fonts/Philosopher-Regular.woff2') format('woff2'),
+        url('public/fonts/Philosopher-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('public/fonts/Philosopher-Bold.woff2') format('woff2'),
+        url('public/fonts/Philosopher-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    display: block;
+    margin: 0;
+}
+
+header{
+    display: block;
+    margin-top: 30px;
+}
+
+main{
+    display: block;
+    margin-top: 16px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1140px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    background-color: transparent;
+    cursor: pointer;
+}
