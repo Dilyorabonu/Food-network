@@ -131,12 +131,12 @@ main .Home .right img {
 }
 
 .AboutUs .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 98px;
-    margin-top: 123px;
-    margin-bottom: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 98px;
+  margin-top: 123px;
+  margin-bottom: 115px;
 }
 
 .AboutUs .container img {
@@ -180,3 +180,54 @@ main .Home .right img {
   transition: all 0.5s ease;
 }
 
+.Menus .container .menuTop {
+  width: 748px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Menus .container .menuTop h2 {
+  color: #dc780b;
+  font-family: "Roboto";
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.Menus .container .menuTop h1 {
+  font-family: "Philosopher";
+  font-size: 31px;
+  line-height: 40px;
+  margin-top: 9px;
+}
+
+.Menus .container .menuTop p {
+  color: #150c0189;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 25px;
+}
+
+.Menus .container .menuBottom .menuFirst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.Menus .container .menuBottom .card {
+  width: 360px;
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 80px 11px 11px 11px;
+}
+
+.Menus .container .menuBottom .card img {
+  border-radius: 0px, 10px, 0px, 0px;
+}
+
+.Menus .container .menuBottom .menuSecond {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
