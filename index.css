@@ -129,3 +129,54 @@ main .Home .right img {
   font-size: 16px;
   line-height: 24px;
 }
+
+.AboutUs .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 98px;
+    margin-top: 123px;
+    margin-bottom: 115px;
+}
+
+.AboutUs .container img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.AboutUs .container .right h2 {
+  color: #dc780b;
+  font-family: "Roboto";
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.AboutUs .container .right h1 {
+  font-family: "Philosopher";
+  font-size: 31px;
+  line-height: 40px;
+  margin-top: 30px;
+  width: 457px;
+}
+
+.AboutUs .container .right p {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  color: #150c0189;
+  width: 477px;
+  margin-top: 30px;
+}
+
+.AboutUs .container button {
+  color: #fff;
+  background-color: #dc780b;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-family: "Roboto";
+  transition: all 0.5s ease;
+}
+
